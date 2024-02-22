@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+    section{
+        width: 100%;
+        height: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        border: 1px solid blue;
+    }
+    .icon_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 4px;
+    }
+    .logo_icon{
+        width: 20px;
+        height: 20px;
+
+    }
+    .digital_S{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #c81d6f;
+    }
+    main{
+        width: 100%;
+        height: 640px;
+        background-color: #babbf3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main_container{
+        width: 80%;
+        height: 572px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .main_cont_white{
+        width: 100%;
+        height: 572px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 6vh;
+    }
+    .aces_box{
+        width: 100%;
+        height: 58px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
+    }
+    .h1_acesse{
+        font-size: 22px;
+    }
+    .novo_c{
+        font-size: 14px;
+    }
+    .login_box{
+        width: 53vw;
+        height: 35vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+    .label{
+        font-size: 12px;
+        font-weight: bold;
+        color: #474747;
+    }
+    .inp_{
+        width: 53vw;
+        height: 10vh;
+        background-color: #f8f8f8;
+        border-radius: 8px;
+    }
+    .inp_::placeholder{
+        margin-left: 10px;
+    }
+    .esqueci_m{
+        color: #474747;
+        align-self: flex-start;
+        margin-left: 13vw;
+    }
+    .acessar_C{
+        width: 255px;
+        height: 48px;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        background-color: #c81d6f;
+    }
+    .ou_faca_box{
+        width: 125px;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ou_faca_l{
+        font-size: 14px;
+        color: #474747;
+    }
+    .logo_boxes{
+        width: 125px;
+        height: 66px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2vh;
+    }
+    .icon_g_f{
+        width: 24px;
+        height: 24px;
+    }
+}
